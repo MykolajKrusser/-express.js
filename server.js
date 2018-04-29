@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/api', api);
 app.get('/', function(req, res){
-    res.send('Hello from server!!');
+    res.send('Server RUN!');
 });
 app.listen(PORT, function(){
     console.log('Server running on localserever:' + PORT);
