@@ -82,7 +82,7 @@ router.get('/events', (req, res) => {
         },
         {
             "_id": "4",
-            "name": "Bearded conference JavaScrip in Real World",
+            "name": "Bearded JavaScrip",
             "description": "this is not barbershop",
             "date": "2018-11-23T10:30:00.511Z"
         },
